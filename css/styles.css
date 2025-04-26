@@ -20,6 +20,11 @@ img {
     height: auto;
 }
 
+*:focus {
+outline: 2px dashed #444;
+outline-offset: 3px;
+}
+
 .container {
     width: 100%;
     max-width: 1240px;
@@ -69,6 +74,21 @@ img {
 }
 .currency-rates-tupe {
     color: blue;
+}
+
+.global-search-form {
+    margin-right: 25px;
+}
+
+.global-search-form-input {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    border: 0;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: normal;
 }
 .currency-rates-value {
 }
